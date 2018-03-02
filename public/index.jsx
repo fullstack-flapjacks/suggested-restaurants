@@ -13,8 +13,8 @@ class App extends React.Component {
 
   componentWillMount() {
     this.fetch();
-  }
-
+  } 
+ 
   fetch() {
     $.ajax({
       method: 'GET',
